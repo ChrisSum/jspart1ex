@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+	// 1.Printing "Goodbye World"
+	document.write("Goodbye World")
+	console.log("Goodbye World")
+	alert("Goodbye World")
+
+	//2. Saving user's name as a variable in a prompt
+	var username = prompt("What's your name")
+	console.log(username)
+
+	//3. Creat 4 different types of variables
+	var num = 7 
+	var str = "This is a string."
+	var boolTrue = boolTrue
+	var alpha = ["a", "b", "c", "d"]
+
+	//4. Using variables for concatentaion
+	var numAlpha = num  + alpha 
+
+	//5. if/else statements using variables 
+	if(username === "Chris") {
+	console.log("Welcome " + username);
+	} else {
+		console.log("Intruder alert!!!");
+	};
+
+	var number = prompt("What's the magic number?")
+	if(number === 7) {
+		console.log("Bingo!");
+	} else {
+		console.log("Wrong!");
+	};
+	
+	//6. Loop that prints 5-24
+	for(var i = 5; i <= 24; i++) {
+		document.write(i);
+	}
+
+	//7. Function w/ 2 parameters that runs on arguments
+	var addMachine = function(n1, n2) {
+		return n1 + n2;
+	};
+
+	addMachine(3,7);
+
+
+	</script>
+</body>
+</html>
